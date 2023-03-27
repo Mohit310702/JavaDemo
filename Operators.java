@@ -30,10 +30,27 @@ class Operators
         // System.out.println(b);
 
         //Relational Operator
-        int a =13 ,b =14;
-        boolean result = a==b;
-        System.out.println(result);
-        System.out.println(a<b);
+        // int a =13 ,b =14;
+        // boolean result = a==b;
+        // System.out.println(result);
+        // System.out.println(a<b);
+
+        //Logical Operator
+        // int a =12;
+        // int b =13, c =20;
+
+        // System.out.println(a>b && b<c || a>c);
+
+        //Ternary Operator
+        int a =20,b =10,c =30;
+        int res = (a>b)? a : b;
+        System.out.println(res);
+
+        String x = (a<b)? "A is smaller" : "B is smaller";
+        System.out.println(x);
+
+        int p = (a<b)? ((a<c)? a:b) : ((b<c)? b : c) ;
+        System.out.println(p);
 
     }
 }
